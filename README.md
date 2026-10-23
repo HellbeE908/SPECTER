@@ -35,23 +35,9 @@ Raspberry Pi 5 ─USB─ XIAO ESP32-S3     (motion commands, 115,200 baud) ─ E
 * **Geometry:** the C1 sits 50 mm off the nod axis, so no part of the scanner ever enters the scan plane. The offset was calibrated from scan data.
 * **Output:** PLY (for CloudCompare) and LAS/LAZ at 1 mm coordinate precision (for survey and GIS tools), plus the raw angles and ranges, so any scan can be rebuilt with new calibration values.
 
-## Repository layout
-
-|Folder|Contents|
-|-|-|
-|`firmware/specter\_nod/`|XIAO ESP32-S3 motion firmware (Arduino)|
-|`software/`|`specter\_capture.py`, the capture and export program, run on the Pi|
-|`software/tools/`|Bench and diagnostic scripts used during development|
-|`hardware/cad/`|Fusion 360 model, STEP export, printable STL parts|
-|`hardware/bom/`|Bill of materials (`BOM.csv`)|
-|`hardware/wiring/`|Pinout and power distribution|
-|`docs/`|Stage 2 presentation and project report|
-|`media/`|Photos of the build, CAD renders, scan renders|
-|`scans/`|A small sample scan; full scans are linked from the Releases page|
-
 ## Bill of materials
 
-Full list in [`hardware/bom/BOM.csv`](SPECTER/hardware/bom). Main items: RPLIDAR C1 ₹7,300 · Raspberry Pi 5 (8 GB) ₹20,000 · tripod ₹4,500 · 3S2P battery ₹1,679 · XIAO ESP32-S3 ₹1,000 · NEMA 17 + TMC2209 ₹1,619. **Total ₹41,256.**
+ Main items: RPLIDAR C1 ₹7,300 · Raspberry Pi 5 (8 GB) ₹20,000 · tripod ₹4,500 · 3S2P battery ₹1,679 · XIAO ESP32-S3 ₹1,000 · NEMA 17 + TMC2209 ₹1,619. **Total ₹41,256.**
 
 The Raspberry Pi is priced at October 2026 levels, after memory-driven price rises; a lower-cost compute board is the most direct way to reduce unit cost.
 
