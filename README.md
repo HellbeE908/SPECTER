@@ -4,7 +4,7 @@
 
 Vishwakarma Awards 2026-27 · Application ID **VK26-IITH-SC-0290** · Theme 6, Sustainable Cities — Smart Urban Infrastructure \& Asset Tracking
 
-!\[SPECTER park survey: 4 stations merged, 1.2 million points](media/park\_survey\_1.2M.jpg)
+SPECTER park survey: 4 stations merged, 1.2 million points](media/park\_survey\_1.2M.jpg)
 
 SPECTER nods a 360° direct time-of-flight 2D LiDAR about an offset axis and turns each sweep into a survey-format 3D point cloud. The complete unit costs **₹41,256**, against **₹25–80 lakh** for commercial terrestrial scanners.
 
