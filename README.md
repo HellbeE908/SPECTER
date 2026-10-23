@@ -51,7 +51,7 @@ Raspberry Pi 5 ─USB─ XIAO ESP32-S3     (motion commands, 115,200 baud) ─ E
 
 ## Bill of materials
 
-Full list in [`hardware/bom/BOM.csv`](hardware/bom/BOM.csv). Main items: RPLIDAR C1 ₹7,300 · Raspberry Pi 5 (8 GB) ₹20,000 · tripod ₹4,500 · 3S2P battery ₹1,679 · XIAO ESP32-S3 ₹1,000 · NEMA 17 + TMC2209 ₹1,619. **Total ₹41,256.**
+Full list in [`hardware/bom/BOM.csv`](SPECTER/hardware/bom). Main items: RPLIDAR C1 ₹7,300 · Raspberry Pi 5 (8 GB) ₹20,000 · tripod ₹4,500 · 3S2P battery ₹1,679 · XIAO ESP32-S3 ₹1,000 · NEMA 17 + TMC2209 ₹1,619. **Total ₹41,256.**
 
 The Raspberry Pi is priced at October 2026 levels, after memory-driven price rises; a lower-cost compute board is the most direct way to reduce unit cost.
 
