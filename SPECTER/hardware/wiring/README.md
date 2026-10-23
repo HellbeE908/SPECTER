@@ -15,4 +15,4 @@ Power: 3S2P pack (9.0-12.6 V, BMS cut-off 8.7 V) -> 5 A fuse -> master switch ->
 
 Driver: 1/8 microstepping (MS1/MS2 floating), V_ref 0.64 V.
 
-Add a wiring diagram image here (`wiring.png`) if you draw one.
+
